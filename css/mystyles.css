@@ -1,0 +1,120 @@
+*{
+	box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#headingTag{
+	background-color: black;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	top: -50px;
+	transition: top 0.3s;
+}
+
+#headingTag a {
+    float: left;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+/*#headingTag a:active, a:focus {
+	background-color: 
+}*/
+
+/*#headingTag a:hover {
+    background: #ddd;
+    color: black;
+}*/
+
+.parallax, .parallax2{
+	position: relative;
+	opacity: 0.65;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax{
+	background-image: url("/FILE2071.JPG");
+	min-height: 100%;
+}
+
+.cap {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	left: 0;
+	text-align: center;
+}
+
+.cap h1{
+	font-size: 2.5em;
+	letter-spacing: 10px;
+}
+
+.parallax2{
+	background-image: url("/FILE2065.JPG");
+	min-height: 100%;
+}
+
+#inputDiv{
+	
+}
+
+#inputDiv #bigSize{
+	font-size: 2.5em;
+}
+
+#inputDiv form{
+	display: block;
+}
+
+.searchBox{
+	position: relative;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.searchBox input#search{
+	/*display: block;*/
+    /*border: none;*/
+    width: 100%;
+    padding: .75em 1em;
+    font-size: 1.15em;
+    border-radius: 5px;
+    border: 2px solid #e5e5e5;
+    transition: .2s ease-in-out
+}
+
+.searchBox button#letsgo{
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: normal;
+    background-color: #92d626;
+    color: #4f5b66;
+    border: 2px solid #e5e5e5;
+    font-size: 1.15em;
+    padding: .75em 1em;
+    border-radius: 0 5px 5px 0;
+    transition: .2s ease-in-out
+}
+/*@media (min-width: )*/
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+    .searchBox{
+    	width: 80%;
+    }
+}
