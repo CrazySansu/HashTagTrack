@@ -7,33 +7,33 @@ body, html {
   margin: 0;
 }
 
+/*INDEX PAGE STYLING*/
+
 #headingTag{
-	background-color: black;
+	background-color: #92d626;
 	overflow: hidden;
 	position: fixed;
 	width: 100%;
 	top: -50px;
 	transition: top 0.3s;
+    border: 0;
 }
 
 #headingTag a {
     float: left;
     display: block;
-    color: red;
+    color: black;
     text-align: center;
     padding: 15px;
     text-decoration: none;
 }
-/*#headingTag a:active, a:focus {
-	background-color: 
-}*/
 
-/*#headingTag a:hover {
+#headingTag a:hover {
     background: #ddd;
     color: black;
-}*/
+}
 
-.parallax, .parallax2{
+.parallax, .parallax2, .parallax3{
 	position: relative;
 	opacity: 0.65;
 	background-attachment: fixed;
@@ -71,6 +71,7 @@ body, html {
 
 #inputDiv #bigSize{
 	font-size: 2.5em;
+    color: black;
 }
 
 #inputDiv form{
@@ -85,8 +86,6 @@ body, html {
 }
 
 .searchBox input#search{
-	/*display: block;*/
-    /*border: none;*/
     width: 100%;
     padding: .75em 1em;
     font-size: 1.15em;
@@ -108,6 +107,58 @@ body, html {
     border-radius: 0 5px 5px 0;
     transition: .2s ease-in-out
 }
+
+.parallax3{
+    background-image: url("../img/FILE2066.JPG");
+    height: 30%;
+    display: block;
+}
+
+.cap2 {
+    position: absolute;
+    padding-top: 10px;
+    margin: auto;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+#descp{
+    width: 50%;
+    margin: auto;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+#student{
+    width: 49%;
+    display: inline-block;
+}
+
+#student span{
+    display: block;
+    font-size: 1.5em;
+}
+
+/*OUTPUT PAGE STYLING*/
+
+.chartsParent{
+    background-color: blue;
+    /*width: 80%;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chartType div{
+    margin-right: auto;
+    margin-left: auto;
+    /*border: 1px solid #ccc;*/
+}
+
+#line_chart_div{
+    
+}
+
 /*@media (min-width: )*/
 
 @media only screen and (max-device-width: 1024px) {
