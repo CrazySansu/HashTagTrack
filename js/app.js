@@ -35,6 +35,9 @@
         		pieHole: 0.4,
         		height: 300,
         		width: 700,
+        		backgroundColor: {
+        			fill: '#ddd'
+        		}
      		};
      		// create the chart object and draw it
       		var chart = new google.visualization.PieChart(document.getElementById('donut_chart_div'));
@@ -63,8 +66,11 @@
         		width: 700,
         		animation: {
         			startup: true,
-        			duration: 5000,
+        			duration: 1000,
         			easing: 'out',
+        		},
+        		backgroundColor: {
+        			fill: '#ddd'
         		}
       		};
      		// create the chart object and draw it
@@ -91,6 +97,9 @@
         			startup: true,
         			duration: 5000,
         			easing: 'out',
+        		},
+        		backgroundColor: {
+        			fill: '#ddd'
         		}
      		};
      		// create the chart object and draw it
@@ -118,6 +127,9 @@
         			startup: true,
         			duration: 5000,
         			easing: 'out',
+        		},
+        		backgroundColor: {
+        			fill: '#ddd'
         		}
      		};
      		// create the chart object and draw it
@@ -145,6 +157,9 @@
         			startup: true,
         			duration: 5000,
         			easing: 'out',
+        		},
+        		backgroundColor: {
+        			fill: '#ddd'
         		}
      		};
         	// create the chart object and draw it
@@ -204,4 +219,8 @@
    		query.send(handleQueryResponseHistogram);
 	}
 	
+
+	// WORD_CLOUD JS CODE
+
+
 })();

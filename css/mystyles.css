@@ -10,7 +10,7 @@ body, html {
 /*INDEX PAGE STYLING*/
 
 #headingTag{
-	background-color: #92d626;
+	background-color: #bbb;
 	overflow: hidden;
 	position: fixed;
 	width: 100%;
@@ -81,6 +81,9 @@ body, html {
 .searchBox{
 	position: relative;
 	width: 50%;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -99,7 +102,7 @@ body, html {
     right: 0;
     top: 0;
     line-height: normal;
-    background-color: #92d626;
+    background-color: #0095DF;
     color: #4f5b66;
     border: 2px solid #e5e5e5;
     font-size: 1.15em;
@@ -143,16 +146,24 @@ body, html {
 /*OUTPUT PAGE STYLING*/
 
 .chartsParent{
-    background-color: blue;
-    /*width: 80%;*/
+    background-color: #ddd;
+    
     margin-left: auto;
     margin-right: auto;
 }
 
+.chartType1 div{
+    float: right;
+}
+
 .chartType div{
-    margin-right: auto;
-    margin-left: auto;
-    /*border: 1px solid #ccc;*/
+    clear: both;
+}
+
+#word-cloud{
+    height: 75vh;
+    width: 75vw;
+    /*margin: 0 auto;*/
 }
 
 #line_chart_div{
