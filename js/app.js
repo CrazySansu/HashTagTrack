@@ -170,7 +170,7 @@
   	}
 
   	function initializeDonut() { 
-  		var csvURL = "http://localhost:3000/data/Sentiment.csv"
+  		var csvURL = "data/Sentiment.csv"
    		var queryOptions = {
       		csvColumns: ['string', 'number' /* Or whatever the columns in the CSV file are */],
       		csvHasHeader: true /* This should be false if your CSV file doesn't have a header */
@@ -180,7 +180,7 @@
   	} 
 
   	function initializeLine() {
-  		var csvURL = "http://localhost:3000/data/dateTweets.csv"
+  		var csvURL = "data/dateTweets.csv"
    		var queryOptions = {
       		csvColumns: ['string', 'number' /* Or whatever the columns in the CSV file are */],
       		csvHasHeader: true /* This should be false if your CSV file doesn't have a header */
@@ -190,7 +190,7 @@
 	}
 
   	function initializePie() {
-  		var csvURL = "http://localhost:3000/data/TweetSource.csv"
+  		var csvURL = "data/TweetSource.csv"
    		var queryOptions = {
       		csvColumns: ['string', 'number' /* Or whatever the columns in the CSV file are */],
       		csvHasHeader: true /* This should be false if your CSV file doesn't have a header */
@@ -200,7 +200,7 @@
 	} 
 
 	function initializeScatter() {
-  		var csvURL = "http://localhost:3000/data/TweetType.csv"
+  		var csvURL = "data/TweetType.csv"
    		var queryOptions = {
       		csvColumns: ['string', 'number' /* Or whatever the columns in the CSV file are */],
       		csvHasHeader: true /* This should be false if your CSV file doesn't have a header */
@@ -210,7 +210,7 @@
   	}
 
   	function initializeHistogram() {
-  		var csvURL = "http://localhost:3000/data/topTweeters.csv"
+  		var csvURL = "data/topTweeters.csv"
    		var queryOptions = {
       		csvColumns: ['string', 'number' /* Or whatever the columns in the CSV file are */],
       		csvHasHeader: true /* This should be false if your CSV file doesn't have a header */
