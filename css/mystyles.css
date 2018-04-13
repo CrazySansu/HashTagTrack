@@ -35,7 +35,7 @@ body, html {
 
 .parallax, .parallax2, .parallax3{
 	position: relative;
-	opacity: 0.65;
+	opacity: 0.8;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -147,17 +147,34 @@ body, html {
 
 .chartsParent{
     background-color: #ddd;
-    
+    position: absolute;
     margin-left: auto;
     margin-right: auto;
 }
 
-.chartType1 div{
+.chartType1{
     float: right;
+    width: 59%;
+    height: 300px;
 }
 
-.chartType div{
+.chartType{
+    float: left;
     clear: both;
+    width: 59%;
+    height: 300px;
+}
+
+.despType{
+    float: right;
+    height: 300px;
+    width: 40%;
+}
+
+.despType1{
+    float: left;
+    height: 300px;
+    width: 40%;
 }
 
 #word-cloud{
@@ -178,5 +195,8 @@ body, html {
     }
     .searchBox{
     	width: 80%;
+    }
+    .chartType, .chartType1, .despType, .despType1{
+        width: 100%;
     }
 }

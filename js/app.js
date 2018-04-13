@@ -33,8 +33,6 @@
      		var options = {
         		title: "Sentiment Analysis of Tweets",
         		pieHole: 0.4,
-        		height: 300,
-        		width: 700,
         		backgroundColor: {
         			fill: '#ddd'
         		}
@@ -62,8 +60,8 @@
         		vAxis: {
           			title: 'NumberOfTweets'
         		},
-        		height: 300,
-        		width: 700,
+        		chartArea:{width:'100%'},
+        		axisTitlesPosition: 'in',
         		animation: {
         			startup: true,
         			duration: 1000,
@@ -91,13 +89,6 @@
 	 	    // set chart options
      		var options = {
         		title: "Sources of Tweets collected",
-        		height: 300,
-        		width: 700,
-        		animation: {
-        			startup: true,
-        			duration: 5000,
-        			easing: 'out',
-        		},
         		backgroundColor: {
         			fill: '#ddd'
         		}
@@ -121,8 +112,6 @@
      		var options = {
         		title: "Type vs NumberOfTweets",
         		legend: 'none',
-        		height: 300,
-        		width: 700,
         		animation: {
         			startup: true,
         			duration: 5000,
@@ -151,8 +140,6 @@
      		var options = {
         		title: "Top Tweeters",
         		legend: 'none',
-        		height: 300,
-        		width: 700,
         		animation: {
         			startup: true,
         			duration: 5000,
@@ -221,6 +208,6 @@
 	
 
 	// WORD_CLOUD JS CODE
-
+	
 
 })();
